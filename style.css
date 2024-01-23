@@ -698,16 +698,24 @@ a {
   margin-right: 2rem;
 }
 
-@media (max-width: 37.5em) {
+/* @media (max-width: 37.5em) {
   .projects__btn-theme {
     margin: 0 0 2rem 0;
   }
 
   .projects__btn-theme,
   .projects__btn-inv {
-    width: 70%;
-  }
-}
+    margin-bottom: 10px; /* Adjust the value as needed */
+    /* width: 70%; */
+  /* } */
+/* }  */
+
+@media (max-width: 767px) {
+  .projects__btn-theme,
+  .projects__btn-inv {
+      margin-bottom: 10px; /* Adjust the value as needed */
+   }
+} 
 
 /* Contact */
 
