@@ -520,6 +520,11 @@ a {
   border-radius: 5px;
   background: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: transform 0.3s ease;
+}
+
+.skills-showcase__list-item:hover {
+  transform: scale(1.1);
 }
 
 .skills-showcase__list-item i {
@@ -1000,6 +1005,11 @@ a {
   background-color: rgb(214, 52, 132); /* Add a background color to the list items */
   padding: 10px; /* Add padding for spacing, adjust as needed */
   border-radius: 5px; /* Add border-radius for rounded corners, adjust as needed */
+  transition: transform 0.3s ease;
+}
+
+.project-showcase__list-item:hover {
+  transform: scale(1.1);
 }
 
 .project-showcase__list-item img {
