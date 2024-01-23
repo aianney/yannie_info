@@ -836,8 +836,8 @@ a {
 }
 
 .contact__form-visual {
-  /* background-image: url('https://i.postimg.cc/mrHQw69n/contact-form-bg.jpg'); */
-  /* background-image: url('/assets/yannie.png'); */
+  background-image: url('https://i.postimg.cc/mrHQw69n/contact-form-bg.jpg');
+  background-image: url('/assets/yannie.png'); 
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
