@@ -6,7 +6,7 @@
 }
 
 :root {
-  --themeColor: 29, 161, 242;
+  --themeColor: 214, 52, 132;
   /* Theme Color in (R,G,B) format */
 }
 
@@ -524,7 +524,7 @@ a {
 
 .skills-showcase__list-item i {
   color: rgba(var(--themeColor), 1);
-  color: #999;
+  color: #0F2167;
   font-size: 5rem;
 }
 
