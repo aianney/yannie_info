@@ -976,3 +976,52 @@ a {
   left: 0;
   z-index: 1;
 }
+
+/* Project Showcase */
+.project-showcase {
+  padding: 60px; /* Add padding to all sides, adjust as needed */
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px; /* Add margin for spacing, adjust as needed */
+  font-size: 2.5em; /* Adjust the font size as needed */
+  color: rgb(9, 9, 9); /* Use the specified color */
+}
+
+.project-showcase__list {
+  display: flex;
+  gap: 10px; /* Adjust the gap value as needed */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+}
+
+.project-showcase__list-item {
+  background-color: rgb(214, 52, 132); /* Add a background color to the list items */
+  padding: 10px; /* Add padding for spacing, adjust as needed */
+  border-radius: 5px; /* Add border-radius for rounded corners, adjust as needed */
+}
+
+.project-showcase__list-item img {
+  width: 100%; 
+  height: auto;
+  border-radius: 5px; /* Add border-radius for rounded corners, adjust as needed */
+}
+
+/* Media queries for smaller screens (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+  .project-showcase {
+    padding: 40px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media queries for even smaller screens (e.g., smartphones) */
+@media only screen and (max-width: 480px) {
+  .project-showcase {
+    padding: 20px; /* Adjust padding for even smaller screens */
+  }
+
+  .section-title {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+}
